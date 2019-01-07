@@ -14,6 +14,7 @@ public class test1 {
 
     @RequestMapping(value = "findAll")
     public String findAll(Model model) {
+        System.out.println("2223333");
         System.out.println("2224444");
         return null;
     }
